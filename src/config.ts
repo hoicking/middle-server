@@ -1,0 +1,1 @@
+export const MODEL_SERVER = process.env.MODEL_SERVER
