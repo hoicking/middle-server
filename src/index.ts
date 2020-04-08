@@ -5,7 +5,7 @@ import infoRoute from './routes/infoRoute'
 
 const app = express()
 
-const port = 3333
+const port = process.env.PORT
 
 app.get('/', (req: Request, res: Response) => {
     res.send('hello world')
