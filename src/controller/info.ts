@@ -1,4 +1,3 @@
-import Express from 'express'
 import Ctl from './ctl'
 import InfoModel from '../model/info'
 import Logger from '../util/logger'

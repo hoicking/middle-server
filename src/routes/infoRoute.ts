@@ -8,4 +8,4 @@ router.get('/weather', (req, res) => {
     new InfoCtl(req, res).getWeatherInfo()
 })
 
-export default router 
+export default router
